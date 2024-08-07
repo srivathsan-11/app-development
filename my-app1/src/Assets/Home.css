@@ -1,0 +1,661 @@
+.fullhome
+{
+    /* border-radius: 2px; */
+    /* border:2px solid black; */
+    
+    /* margin-right: 0px; */
+    /* min-height: 100vh; */
+    /* border: 2px solid yellow; */
+    /* background-color: #333; */
+    /* background-image: url("C:\Users\veera\Desktop\advance app development\my-app\src\Assets\prepared-wedding-hall.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    margin-top: -22px;
+    margin-left: -22px;
+    margin-right: -19px;
+
+    
+  }
+  .ticket-generator-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 40px; */
+    background-color: #060406;
+    color: rgb(13, 84, 226);
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: fadeIn 2s ease-in-out;
+    /* animation: fadeIn 1s ease-in-out; */
+  }
+  
+  .text-content {
+    max-width: 40%;
+    margin-bottom: 200px;
+    margin-left: 75px;
+    margin-top: 20px;
+    padding-top: 40px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: fadeIn 1s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* .text-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 20px;
+  } */
+  
+  /* .text-content p {
+    font-size: 1.2rem;
+    color: #4a5568;
+    margin-bottom: 20px;
+    } */
+    
+  .highlight {
+    color: #0a0d10;
+  }
+  
+  .get-started-button {
+    background-color: #fcffff;
+    color: rgb(188, 80, 80);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 450px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .get-started-button:hover {
+    background-color: #1e416c;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .promo-text {
+    font-size: 1rem;
+    color: #0a54d4;
+    margin-top: 10px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .image-content {
+    /* max-width: 45%; */
+    background-image: url("https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlfGVufDB8fDB8fHww");
+    height: 450px;
+    width: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right:100px ;
+    /* margin-top: 0px; */
+    border-radius: 20px;
+    /* border:2px solid black; */
+    animation: fadeIn 2s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+  }
+  @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+}
+  
+  .image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .footer-container {
+    background-color: #1a0033;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: -22px ;
+  }
+  
+  .footer-section {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 5%;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #06080d;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #030304;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom a {
+    color: #9fa1a7;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+  .our-team-container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    /* padding-top: 50px; */
+    /* margin-bottom:450px; */
+    background-color: #030202;
+    /* border:2px solid black; */
+    color: rgb(211, 238, 34);
+    height: 500px;
+/* 
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .6s ease tranform .6s ease; */
+  }
+
+  /* .Magic{
+
+    opacity: 1;
+    transform: translateY(0);
+  } */
+  
+  .our-image-section {
+    height: 470px;
+    flex: 1;
+    padding-right: 20px;
+    animation: float 5s ease-in-out infinite;
+    border-radius: 10px;
+    background-image: url("https://wallpapers.com/images/hd/corporate-event-1400-x-971-wallpaper-jqu2rmzs9darg1vb.jpg");
+    background-repeat: no-repeat;
+    justify-content: right;
+    background-size: 90%;
+    /* border:2px soid black; */
+    margin-left: 130px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    animation: slideIn 1s ease-in-out;
+
+  }
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  /* .image-section img {
+    /* width: 100%; */
+    /* border-radius: 8px; */
+  
+  
+  .text-section {
+    flex: 1;
+    padding-left: 20px;
+    color: rgb(48, 106, 242);
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* .text-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  } */
+  
+  .text-section .quote {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(211, 238, 34);
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .text-section .author {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .about-us-button {
+    background-color: rgb(34, 132, 5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 230px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .about-us-button:hover {
+    background-color: rgb(18, 129, 10);
+  }
+  
+  .wedding-planning-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #050404;
+    color: rgb(211, 238, 34);
+    animation: slideIn 1s ease-in-out;
+    /* border:2px solid gray; */
+  }
+  
+  
+  .text-section {
+    flex: 1;
+    padding-right: 20px;
+    font-size: 0px;
+    color: yellow;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* .text-section h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+  } */
+  
+  .separator {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(211, 238, 34);
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* .text-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+   */
+  .learn-more-button {
+    background-color: rgb(211, 238, 34);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: 1px solid rgb(211, 238, 34);
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .learn-more-button:hover {
+    border: 1px solid rgb(211, 238, 34);
+    background-color: gray;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .mimage-section {
+    flex: 1;
+    padding-left: 20px;
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 200px;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/44/71/83/1000_F_244718361_YCFcYykwkGXNbrTldWgEu6pj0JyMbKoz.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    animation: float 5s ease-in-out infinite;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+ 
+  
+  @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+}
+  .image-section img {
+    width: 100%;
+    border-radius: 8px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .corporate-events-container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #0b0808;
+    color: #333;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .cimage-section {
+    flex: 1;
+    padding-left: 20px;
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 200px;
+    background-image: url("https://img.freepik.com/free-vector/new-product-concept-illustration_114360-6801.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    animation: float 5s ease-in-out infinite;
+    margin-top: 50px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+}
+
+  .cimage-section img {
+    width: 100%;
+    border-radius: 8px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding-left: 20px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .text-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #c20fd5;
+    margin-bottom: 10px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .separator {
+    width: 50px;
+    height: 2px;
+    background-color: #f6f3f3;
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .text-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .learn-more-button {
+    background-color: #0b0404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #060404;
+
+  }
+  
+  /* BackstageByNumbers.css */
+.backstage-container {
+  background: linear-gradient(to right, #094F66, #162E85);
+  padding: 20px;
+  border-radius: 0px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin-left: -21px;
+  margin-right: -21px;
+  
+}
+
+.backstage-title {
+  font-size: 44px;
+  margin-bottom: 38px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.backstage-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.stat-number {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* EventPlanning.css */
+.event-planning-container {
+  background-color: #050303;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  color: white;
+  animation: slideIn 1s ease-in-out;
+}
+
+.text-section {
+  max-width: 50%;
+  animation: slideIn 1s ease-in-out;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  animation: slideIn 1s ease-in-out;
+}
+
+.divider {
+  width: 50px;
+  border: 1px solid #1a1a1a;
+  margin: 20px 0;
+  animation: slideIn 1s ease-in-out;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.learn-more-button {
+  background-color: #0c0707;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: slideIn 1s ease-in-out;
+}
+
+.learn-more-button:hover {
+  background-color: #333;
+  animation: slideIn 1s ease-in-out;
+}
+
+.event-image-section {
+  flex: 1;
+  padding-left: 20px;
+  /* border: 1px solid black; */
+  height: 400px;
+  width: 200px;
+  background-image: url("https://www.trophiesplusmedals.co.uk/media/blog/sports-awards.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  animation: float 5s ease-in-out infinite;
+  margin-top: 50px;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+}
+
+.d-events-container {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #0d0a0a;
+  color: #333;
+  animation: slideIn 1s ease-in-out;
+}
+
+.dimage-section {
+  flex: 1;
+  padding-left: 20px;
+  /* border: 1px solid black; */
+  height: 400px;
+  width: 200px;
+  background-image: url("https://blog.ipleaders.in/wp-content/uploads/2017/05/iPleaders-6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  animation: float 5s ease-in-out infinite;
+  margin-top: 50px;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+}
+
+.ear-piercing-container {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 40px; */
+  width: 100%;
+  background-color: #060505;
+  animation: slideIn 1s ease-in-out;
+}
+.eimage-section{
+  flex: 1;
+  padding-left: 20px;
+  /* border: 1px solid black; */
+  height: 400px;
+  width: 200px;
+  background-image: url("https://media.istockphoto.com/id/178447404/photo/modern-business-buildings.jpg?s=612x612&w=0&k=20&c=MOG9lvRz7WjsVyW3IiQ0srEzpaBPDcc7qxYsBCvAUJs=");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  animation: float 5s ease-in-out infinite;
+  margin-top: 50px;
+  margin-right: 30px;
+  animation: slideIn 1s ease-in-out;
+}
+.himage-section{
+  flex: 1;
+  padding-left: 20px;
+  /* border: 1px solid black; */
+  height: 400px;
+  width: 200px;
+  background-image: url("https://wsss.org.nz/wp-content/uploads/2019/08/multi-sport.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  animation: float 5s ease-in-out infinite;
+  margin-top: 50px;
+  animation: slideIn 1s ease-in-out;
+}
+.house-warming-container {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #0a0606;
+  color: #333;
+  animation: slideIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
